@@ -7,7 +7,10 @@ const TextFieldExample = props => {
     <TextField
       placeholder={'Search project details or create a new entry'}
       InputProps={{
-        endAdornment: <InputAdornment position={'end'}>
+        endAdornment: <InputAdornment
+          position={'end'}
+          style={{cursor: 'pointer'}}
+        >
           <Add color={'primary'}/>
         </InputAdornment>
       }}

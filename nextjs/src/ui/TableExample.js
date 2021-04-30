@@ -3,6 +3,41 @@ import {Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow}
 
 const TableExample = () => {
 
+  const headCells =[
+    {
+      id: 'name',
+      label: 'name'
+    },
+    {
+      id: 'data',
+      label: 'date'
+    },
+    {
+      id: 'service',
+      label: 'service'
+    },
+    {
+      id: 'features',
+      label: 'features'
+    },
+    {
+      id: 'complexity',
+      label: 'complexity'
+    },
+    {
+      id: 'platforms',
+      label: 'platforms'
+    },
+    {
+      id: 'users',
+      label: 'users'
+    },
+    {
+      id: 'total',
+      label: 'total'
+    },
+  ]
+
   const data = [
     {
       name: 'a',
@@ -13,6 +48,25 @@ const TableExample = () => {
       platforms: 'a',
       users: 'a',
       total: 'a'
+    },
+    {
+      name: 'b',
+      date: 'b',
+      service: 'b',
+      features: 'b',
+      complexity: 'b',
+      platforms: 'b',
+      users: 'b',
+      total: 'b'
+    },{
+      name: 'c',
+      date: 'c',
+      service: 'c',
+      features: 'c',
+      complexity: 'c',
+      platforms: 'c',
+      users: 'c',
+      total: 'c'
     }
   ]
 
